@@ -1,6 +1,6 @@
 import {TextInput, View} from "react-native";
 
-function StartGameScreen() {
+function GameOverScreen() {
     return (
         <View>
             <TextInput />
@@ -8,4 +8,4 @@ function StartGameScreen() {
     );
 }
 
-export default StartGameScreen;
+export default GameOverScreen;
