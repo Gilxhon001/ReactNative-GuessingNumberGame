@@ -1,17 +1,19 @@
 import {StyleSheet, Text, View, Pressable} from "react-native";
 
-function pressHandler() {
-    console.log('Pressed!');
-}
 
-function PrimaryButton({children}) {
+
+function PrimaryButton({children, onPress}) {
+
     return (
         <View style={styles.buttonOuterContainer}>
             <Pressable
-                onPress={pressHandler}
-                style={({pressed}) => pressed ? [styles.buttonInnerContainer, styles.pressed] : styles.buttonInnerContainer}
+                style={({pressed}) =>
+                    pressed
+                        ? [styles.buttonInnerContainer, styles.pressed]
+                        : styles.buttonInnerContainer
+                }
                 android_ripple={{color: '#916a78'}}
-
+                onPress={onPress}
             >
                 <Text style={styles.buttonText}>{children}</Text>
             </Pressable>
