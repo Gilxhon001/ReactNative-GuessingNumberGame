@@ -13,7 +13,7 @@ function PrimaryButton({children, onPress}) {
                         ? [styles.buttonInnerContainer, styles.pressed]
                         : styles.buttonInnerContainer
                 }
-                android_ripple={{color: Colors.primary600}}
+                android_ripple={{color: Colors.primary500}}
                 onPress={onPress}
             >
                 <Text style={styles.buttonText}>{children}</Text>
@@ -31,7 +31,7 @@ const styles = StyleSheet.create({
         overflow: "hidden",
     },
     buttonInnerContainer: {
-        backgroundColor: Colors.primary500,
+        backgroundColor: Colors.primary600,
         paddingHorizontal: 16,
         paddingVertical: 8,
         elevation: 2,
