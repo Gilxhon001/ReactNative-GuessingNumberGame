@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
     summaryText: {
         fontFamily: 'open-sans',
         fontSize: 24,
+        marginBottom: 24,
     },
 
     highlight: {
