@@ -1,7 +1,9 @@
 # ReactNative-GuessingNumberGame
 
-The app is a number guessing game where the user has to guess a number between 1 and 99, with hints provided by the phone. 
+The app is a number guessing game where the phone has to guess a number between 1 and 99, with hints provided by the user. 
+
 The development of the app involves exploring new concepts like gradients and multiple screens with Core Components. 
+
 Additionally, the development process will also include creating complex layouts, learning new styling techniques, and building 
 reusable custom components writing good React code.
 
